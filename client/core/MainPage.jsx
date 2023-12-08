@@ -9,7 +9,7 @@ export default function Main(){
       <main>
         <section id="intro">
           <div className="intro-text">
-            <img src="./../assets/images/logo.png" alt="Filatino Logo" width="300px" height="300px" />
+          <img src="/images/logo.png" alt="Filatino Logo" width="300px" height="300px" />
             <h1>Choose a flag below to start a quiz</h1>
           </div>
           
