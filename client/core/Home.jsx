@@ -30,7 +30,7 @@ export default function Home() {
         <section id="intro">
           <div className="intro-text">
             <img
-              src="/images/logo.png"
+              src="client\public\images\logo.png"
               alt="Filatino Logo"
               width="300px"
               height="300px"
