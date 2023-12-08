@@ -1,7 +1,11 @@
-import User from '../models/user.model.js'
-import jwt from 'jsonwebtoken'
-import { expressjwt } from "express-jwt";
-import config from '../config/config.js'
+// controllers/auth.controller.js
+import User from '../models/user.model.js';
+import jwt from 'jsonwebtoken';
+import { expressjwt } from 'express-jwt';
+import { config } from '../config/config.js'; // Import named export
+
+// Rest of the code...
+
 
 
 const signin = async (req, res) => { 
